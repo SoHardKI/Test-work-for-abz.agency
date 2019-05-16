@@ -14,12 +14,6 @@ $seniors = array();
 $team_leads = array();
 $prs = array();
 
-//foreach ($workers as $worker)
-//{
-//    echo $worker['parent_id'];
-//    echo '<br>';
-//}
-
     foreach ($workers as $worker)
     {
         switch ($worker['position'])
