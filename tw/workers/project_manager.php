@@ -70,50 +70,6 @@ class project_manager
 
 
 
-//        for($j=0;$j<count($juniors);++$j)
-//        {
-//            for ($i=0;$i<count($middles);++$i)
-//            {
-//                array_push($middles[$i]->juniors,$juniors[$j]);
-//                $j++;
-//                if($j == count($juniors)) break;
-//
-//            }
-//        }
-
-//        for($j=0;$j<count($middles);++$j)
-//        {
-//            for ($i=0;$i<count($seniors);++$i)
-//            {
-//                array_push($seniors[$i]->middles,$middles[$j]);
-//                $j++;
-//                if($j == count($middles)) break;
-//
-//            }
-//        }
-//
-//        for($j=0;$j<count($seniors);++$j)
-//        {
-//            for ($i=0;$i<count($team_leads);++$i)
-//            {
-//                array_push($team_leads[$i]->seniors,$seniors[$j]);
-//                $j++;
-//                if($j == count($seniors)) break;
-//
-//            }
-//        }
-//
-//        for($j=0;$j<count($team_leads);++$j)
-//        {
-//            for ($i=0;$i<count($prs);++$i)
-//            {
-//                array_push($prs[$i]->team_leads,$team_leads[$j]);
-//                $j++;
-//                if($j == count($team_leads)) break;
-//
-//            }
-//        }
-
         return $prs;
     }
 
